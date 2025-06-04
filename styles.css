@@ -1,0 +1,28 @@
+body{
+  height: 98vh;
+  width: 98vh;
+}
+.imghtml img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.imgcss img{
+  width: 200px;
+  height: 200px;
+  object-fit:cover;
+}
+
+.imgjs img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  height: 98vh;
+  width: 98vh;
+}
